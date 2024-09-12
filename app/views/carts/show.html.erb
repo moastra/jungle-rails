@@ -24,8 +24,8 @@
           <th colspan="4">
             TOTAL:
           </th>
-          <th>
-            <%= cart_subtotal_cents / 100.0 %>
+          <th class="total_price">
+            <%= formatted_currency(cart_subtotal_cents / 100) %>
           </th>
         </tr>
       </tfoot>
